@@ -16,9 +16,13 @@ html,body{background:#050404}
 main{max-width:540px;margin:0 auto}
 img{display:block;width:100%;height:auto}
 .cta{display:block;margin:24px 16px calc(32px + env(safe-area-inset-bottom));padding:20px;border-radius:14px;background:#D9213C;color:#fff;text-align:center;font:700 18px/1.2 -apple-system,Inter,Arial,sans-serif;text-decoration:none}
+.first{position:relative}
+.hint{position:absolute;left:0;right:0;bottom:2.2%;text-align:center;color:#F6EBDD;font:600 15px/1.2 -apple-system,Inter,Arial,sans-serif;letter-spacing:3px;text-transform:uppercase;text-shadow:0 2px 10px #000}
+.hint span{display:block;font-size:26px;margin-top:2px;color:#D9213C;animation:b 1.4s ease-in-out infinite}
+@keyframes b{0%,100%{transform:translateY(0)}50%{transform:translateY(8px)}}
 </style></head>
 <body><main>
-<img src="s/sp_01.jpg" width="1080" height="1920" alt="Слайд 1">
+<div class="first"><img src="s/sp_01.jpg" width="1080" height="1920" alt="Слайд 1"><div class="hint">Листайте вниз<span>↓</span></div></div>
 <img src="s/sp_02.jpg" width="1080" height="1920" alt="Слайд 2">
 <img src="s/sp_03.jpg" width="1080" height="1920" alt="Слайд 3" loading="lazy">
 <img src="s/sp_04.jpg" width="1080" height="1920" alt="Слайд 4" loading="lazy">
@@ -42,5 +46,6 @@ img{display:block;width:100%;height:auto}
 <img src="s/sp_22.jpg" width="1080" height="1920" alt="Слайд 22" loading="lazy">
 <img src="s/sp_23.jpg" width="1080" height="1920" alt="Слайд 23" loading="lazy">
 <img src="s/sp_24.jpg" width="1080" height="1920" alt="Слайд 24" loading="lazy">
+<img src="s/sp_25.jpg" width="1080" height="1920" alt="Слайд 25" loading="lazy">
 <a class="cta" href="tel:+79234444906">Позвонить Дмитрию: +7 923 444-49-06</a>
 </main></body></html>
